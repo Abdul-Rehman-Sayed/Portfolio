@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 0;
+    width: 100%;  
+}
+.navbar-brand{
+    font-size: 34px;
+    font-weight: bold;
+}
+.nav-item{
+    font-size: 20px; 
+    padding-right: 18px;
+}
+.nav-link{
+    color: black;
+    font-weight: 500;
+}
+.main-container{
+    height: 80vh;
+    align-content:center;
+}
+.img img{
+    height: 400px;
+    width: 450px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 40px;
+    box-shadow: 1px 1px 10px black;
+}
+@media (min-width:768px) and (max-width:1200px){
+    .main-container{
+        height: 100vh;
+    }
+    .text-container{
+        margin-top: 10px;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .main-container{
+        height: 100vh;
+    }
+    .img img{
+        margin-top: 30px;
+    }
+    .text-container{
+        margin-top: 10px;
+    }
+}
+@media (min-width:400px) and (max-width:576px){
+    .main-container{
+        height: 100vh;
+    }
+    .img{
+        padding: 0;
+    }
+    .img img{
+        height: 300px;
+        width: 340px;
+        padding: 0;
+        margin: 40px 0px 0px 0px;
+    }
+    .btn{
+        margin: 10px 0px 4px 0px;
+    }
+    .foot-text{
+        margin-top: 10px;
+    }
+}
+@media (max-width:399px){
+    .main-container{
+        height: 100vh;
+        padding: 0;
+    }
+    .img{
+        padding: 0;
+    }
+    .text-container{
+        margin-top: 10px;
+    }
+    .img img{
+        height: 240px;
+        width: 280px;
+        margin: 40px 0px 0px 0px;
+    }
+    .btn{
+        margin: 20px 0px;
+    }
+    .foot-text{
+        margin-top: 10px;
+    }
+}
